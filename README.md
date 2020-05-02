@@ -136,7 +136,7 @@ Installed mods:
 
 Mod Git Repos:
 
-Using the following command from inside the mods directory produced the below list list:
+Using the following command from inside the mods directory produced the below list:
 
 `find ./**/.git -name "config" | xargs cat | grep url | sed -e 's/^.*url = /* /'`
 
@@ -199,6 +199,7 @@ Updated mods:
 * mobs_animals
 * mobs_monsters
 * underch
+* ethereal
 
 Update failed:
 
