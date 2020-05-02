@@ -66,7 +66,8 @@ find . -mindepth 1 -maxdepth 1 -type d -print -exec git -C {} pull \;
 
 ### Mods
 
-Installed into: /minetest/main/mods
+Installed into: `/minetest/main/mods`
+Settings file: `/minetest/main/mods/settings.conf` <= Currently only used for ethereal.
 
 Installed mods:
 
