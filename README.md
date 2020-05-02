@@ -132,6 +132,64 @@ Installed mods:
 * portalgun
 * underch
 
+Mod Git Repos:
+
+Using the following command from inside the mods directory produced the below list list:
+
+`find ./**/.git -name "config" | xargs cat | grep url | sed -e 's/^.*url = /* /'`
+
+* https://github.com/stujones11/minetest-3d_armor.git
+* https://github.com/rubenwardy/awards.git
+* https://gitlab.com/VanessaE/basic_materials.git
+* https://gitlab.com/h2mm/bike.git
+* https://gitlab.com/VanessaE/biome_lib.git
+* https://github.com/minetest-mods/castle_tapestries.git
+* https://github.com/Sokomine/cottages.git
+* https://github.com/minetest-mods/craftguide.git
+* https://github.com/minetest-mods/crops.git
+* https://github.com/minetest-mods/death_compass.git
+* https://notabug.org/TenPlus1/ethereal.git
+* https://notabug.org/TenPlus1/farming.git <= Not enabled at this time.
+* https://github.com/rubenwardy/food.git
+* https://bitbucket.org/sorcerykid/formspecs.git
+* https://bitbucket.org/sorcerykid/giftbox.git
+* https://github.com/GloopMaster/glooptest.git
+* https://github.com/ThatGhzGamer/gocm_carbon.git
+* https://notabug.org/Piezo_/minetest-hangglider.git
+* https://gitlab.com/VanessaE/homedecor_modpack.git
+* https://github.com/AiTechEye/hook.git
+* https://github.com/YuGiOhJCJ/item_strings.git
+* https://github.com/LoneWolfHT/lavastuff.git
+* https://github.com/AiTechEye/livetools.git
+* https://github.com/brylie/minetest-manners.git
+* https://notabug.org/Piezo_/minetest-meseportals.git
+* https://github.com/lisacvuk/minetest-toolranks.git
+* https://notabug.org/TenPlus1/mobs_animal.git
+* https://notabug.org/TenPlus1/mobs_redo.git
+* https://notabug.org/TenPlus1/mobs_monster.git
+* https://github.com/minetest-mods/moreblocks.git
+* https://github.com/minetest-mods/moreores.git
+* https://gitlab.com/VanessaE/moretrees.git
+* https://github.com/minetest-mods/nether.git
+* https://github.com/minetest-mods/orbs_of_time.git
+* https://bitbucket.org/sorcerykid/ownership.git
+* https://github.com/ElCeejoYT/paleotest.git
+* https://github.com/runsy/petz
+* https://gitlab.com/VanessaE/pipeworks.git
+* https://gitlab.com/VanessaE/plantlife_modpack.git
+* https://github.com/minetest-mods/pontoons.git
+* https://github.com/AiTechEye/portalgun.git
+* https://notabug.org/TenPlus1/simple_skins.git
+* https://github.com/minetest-mods/technic.git
+* https://github.com/minetest-mods/throwing.git
+* https://gitlab.com/h2mm/uchu.git
+* https://gitlab.com/h2mm/underch.git
+* https://gitlab.com/VanessaE/unifieddyes.git
+* https://github.com/theFox6/minetest_mod_weather.git
+* https://github.com/minetest-mods/wielded_light.git
+* https://github.com/minetest-mods/xdecor
+* https://github.com/starninjas/xocean.git
+
 Updated mods:
 
 * awards
