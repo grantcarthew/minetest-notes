@@ -201,6 +201,7 @@ Updated mods:
 * mobs_monsters
 * underch
 * ethereal
+* petz
 
 Update failed:
 
