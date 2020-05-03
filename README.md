@@ -2,7 +2,7 @@
 
 ## Main Server
 
-* Build: 5.3.0-dev from master branch
+* Build: 5.0.1
 * Game: minetest_game
 * World: /minetest/main/world
 
@@ -191,6 +191,7 @@ Using the following command from inside the mods directory produced the below li
 * https://github.com/minetest-mods/wielded_light.git
 * https://github.com/minetest-mods/xdecor
 * https://github.com/starninjas/xocean.git
+* https://github.com/TheTermos/mobkit
 
 Updated mods:
 
