@@ -1,0 +1,49 @@
+#!/bin/bash
+
+usage () { echo "Usage: $0 [-u] [-p <string>]" 1>&2; exit 1; }
+pl () { printf %"$(tput cols)"s | tr " " "-"; }
+
+while getopts "up:" OPTION; do
+  case "${OPTION}" in
+    u)
+      u=1
+      ;;
+    p)
+      p=${OPTARG}
+      ;;
+    *)
+      usage
+      ;;
+  esac
+done
+
+shift $((OPTIND-1))
+
+if [ ! -d "${p}" ]; then
+  echo Invalid path: $p
+  usage
+fi
+
+pl;
+echo "Git Remote Update and Status"
+echo "Root Path: $p"
+pl;
+
+if [ -n "${u}" ]; then
+  echo Updating from remote...
+  find $1 -mindepth 1 -maxdepth 1 -type d -print -exec git -C {} remote update \;
+  pl;
+fi
+
+echo Showing status...
+pl;
+mods="$(find $1 -mindepth 1 -maxdepth 1 -type d -print;)"
+for mod in $mods; do
+	    stat=$(git -C $mod status -uno | grep -oP '\d+.commits')
+	    printf "%-25s%s %s\n" $(basename $mod) $stat
+done
+
+pl;
+echo Status complete.
+pl;
+
