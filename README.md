@@ -25,7 +25,7 @@ git branch to list the branches and checkout the latest version branch.
 
 Follow the build instructions on the page. Most recently used:
 
-cmake . -DRUN_IN_PLACE=TRUE -DBUILD_SERVER=TRUE -DBUILD_CLIENT=FALSE -DCMAKE_BUILD_TYPE=Release
+cmake . -DRUN_IN_PLACE=TRUE -DBUILD_SERVER=TRUE -DBUILD_CLIENT=FALSE -DENABLE_CURSES=ON -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
 
 Change directory into the games directory and clone in the games you want.
