@@ -5,7 +5,7 @@
 * Build: 5.0.1
 * Game: minetest_game
 * World: /minetest/main/world
-* craftguide mod: 1.11.4 <= latest version that supports 5.0.1
+* craftguide mod: 1.11b <= latest version that supports 5.0.1
 
 ## Building Minetest
 
