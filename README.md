@@ -25,8 +25,10 @@ git branch to list the branches and checkout the latest version branch.
 
 Follow the build instructions on the page. Most recently used:
 
+```bash
 cmake . -DRUN_IN_PLACE=TRUE -DBUILD_SERVER=TRUE -DBUILD_CLIENT=FALSE -DENABLE_CURSES=ON -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
+```
 
 Change directory into the games directory and clone in the games you want.
 Capture the flag (https://github.com/MT-CTF/capturetheflag) requires some update scripts run. Be warned that they fix the settings in the lua scripts.
