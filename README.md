@@ -8,6 +8,15 @@
 
 ## Building Minetest
 
+Install dependencies:
+
+```bash
+sudo apt update
+# Install command from the Minetest documentation. Then install libncurses-dev to enable --terminal support.
+sudo apt install libncurses-dev
+
+```
+
 Clone the minetest repo
 
 https://github.com/minetest/minetest
